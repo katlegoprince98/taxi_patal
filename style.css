@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+   
+}
+h1{
+    color: #7c7c7c2b;
+    font-size: 44px;
+    display: flex;
+}
+.inputs{
+    width: 100%;
+    max-width: 470px;
+    height: 100vh;
+    max-height: 250px;
+    background-color: white;
+    padding: 9px;
+    margin-top: 17px;
+}
