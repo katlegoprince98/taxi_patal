@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="main">
-        <form action="controller.php">
+        <form action="controller.php" method="post">
             <h1 class="header">Taxi Patal Form</h1>
             <div class="inputs">
                 <input type="text" placeholder="Taxi registration">
