@@ -12,6 +12,15 @@
 
         if($reg != "" && $dest != "" && $driver != "" && $noSeats != 0 && $noPass != 0 && $price > 0){
            $total = $price * $noPass;  
+           echo $total;
+
+        }else{
+            ?>
+            <script>
+                window.alert("Please enter all required fields!");
+                window.history('index.php');
+            </script>
+            <?php
         }
       }
 ?>
