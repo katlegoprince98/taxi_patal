@@ -22,7 +22,7 @@
 
             </div>
             <div class="button">
-                <button>CALCULATE</button>
+                <button name="submit">CALCULATE</button>
             </div>
         </form>
     </div>
