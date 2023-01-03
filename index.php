@@ -13,12 +13,12 @@
         <form action="controller.php" method="post">
             <h1 class="header">Taxi Patal Form</h1>
             <div class="inputs">
-                <input type="text" placeholder="Taxi registration">
-                <input type="text" placeholder="Taxi driver"><br>
-                <input type="number" placeholder="Number of seats">
-                <input type="number" placeholder="Number of passengers"><br>
-                <input type="text" placeholder="Trip destination">
-                <input type="number" placeholder="Price per passenger">
+                <input type="text" name="reg" placeholder="Taxi registration">
+                <input type="text" name="driver" placeholder="Taxi driver"><br>
+                <input type="number" name="noSeats" placeholder="Number of seats">
+                <input type="number" name="noPass" placeholder="Number of passengers"><br>
+                <input type="text" name="dest" placeholder="Trip destination">
+                <input type="number" name="price" placeholder="Price per passenger">
 
             </div>
             <div class="button">
