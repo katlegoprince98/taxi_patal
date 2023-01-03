@@ -12,13 +12,12 @@
          
 
         if($reg != "" && $dest != "" && $driver != "" && $noSeats != 0 && $noPass != 0 && $price > 0){
-           $total = $price * $noPass;  
-           ?>
-           <script>
-            window.alert();
-            window.history('index.php');
-           </script>
-           <?php
+            function calc ($price, $noPass){
+                $total = $price * $noPass;  
+                return $total;
+            }
+           
+           header('location: content.php');
         }else{
             ?>
             <script>
