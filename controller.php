@@ -1,4 +1,5 @@
 <?php
+
       if(isset($_POST['submit'])){
      
          $reg = $_POST['reg'];
@@ -12,8 +13,12 @@
 
         if($reg != "" && $dest != "" && $driver != "" && $noSeats != 0 && $noPass != 0 && $price > 0){
            $total = $price * $noPass;  
-           echo $total;
-
+           ?>
+           <script>
+            window.alert();
+            window.history('index.php');
+           </script>
+           <?php
         }else{
             ?>
             <script>
